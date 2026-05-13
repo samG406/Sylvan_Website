@@ -1,16 +1,46 @@
-# React + Vite
+# Sylvan — Marketing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Public landing page for **Sylvan**: standardized private real estate income structures aimed at RIAs. The page explains the “structure vs. asset” model, committee-focused benefits, strategy cards (Core Income, Offset Income, DST Access), capital stack positioning, and platform / regulatory disclosures.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** (Vite)
+- **Plain CSS** — layout, theme, animations (`src/App.css`)
+- **lucide-react** — icons
 
-## React Compiler
+## Prerequisites
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Node.js** 18+ (LTS recommended)
+- **npm** (comes with Node)
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open the URL Vite prints (usually `http://localhost:5173`).
+
+## Scripts
+
+| Command        | Description              |
+| -------------- | ------------------------ |
+| `npm run dev`  | Local dev server + HMR   |
+| `npm run build` | Production build → `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm run lint` | Run ESLint               |
+
+## Project layout
+
+| Path            | Role                                      |
+| --------------- | ----------------------------------------- |
+| `src/App.jsx`   | Page content and structure                |
+| `src/App.css`   | All styling (no Tailwind)                 |
+| `src/main.jsx`  | App entry                                 |
+| `src/index.css` | Global reset / base                       |
+| `index.html`    | Document shell + page title               |
+
+## Repository
+
+Remote: [github.com/samG406/Sylvan_Website](https://github.com/samG406/Sylvan_Website)
